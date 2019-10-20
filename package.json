@@ -1,0 +1,17 @@
+{
+  "name": "fogonautas-matafogo-nasa-space-apps-api",
+  "version": "1.0.0",
+  "description": "An API to report firespots and alert community to help prevent further damage",
+  "main": "index.js",
+  "repository": "https://github.com/FerJSsilva/fogonautas-matafogo-nasa-space-apps-api",
+  "author": "Fernando Silva ferjssilva@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "json-server db.json --port 3001",
+    "dev": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
